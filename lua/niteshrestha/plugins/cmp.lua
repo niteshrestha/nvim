@@ -43,11 +43,9 @@ return {
 
             window = {
                 documentation = {
-                    border = CUSTOM_BORDER,
                     winhighlight = "Normal:NormalFloat,FloatBorder:FloatBorder,Search:None",
                 },
                 completion = {
-                    border = CUSTOM_BORDER,
                     winhighlight = "Normal:NormalFloat,FloatBorder:FloatBorder,CursorLine:Visual",
                 },
             },

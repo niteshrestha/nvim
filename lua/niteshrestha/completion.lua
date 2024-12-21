@@ -108,7 +108,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
                     vim.wo[win_data.winid].conceallevel = 2
 
                     vim.lsp.util.stylize_markdown(win_data.bufnr, contents, {})
-                    vim.api.nvim_win_set_config(win_data.winid, { border = CUSTOM_BORDER })
+                    vim.api.nvim_win_set_config(win_data.winid, {})
 
                     vim.bo[win_data.bufnr].modifiable = false
                     -- Simple scrolling in the preview window
