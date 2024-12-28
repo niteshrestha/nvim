@@ -4,7 +4,7 @@ local function setup()
 
     dap.adapters.coreclr = {
         type = "executable",
-        command = "~/netcoredbg/netcoredbg",
+        command = "netcoredbg",
         args = { "--interpreter=vscode" },
     }
 

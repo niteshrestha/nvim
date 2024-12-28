@@ -5,8 +5,6 @@ vim.keymap.set("n", "<leader>se", vim.cmd.Ex)
 
 vim.keymap.set("n", "<leader>h", "_")
 vim.keymap.set("n", "<leader>l", "$")
-vim.keymap.set("n", "<leader>j", "G")
-vim.keymap.set("n", "<leader>k", "gg")
 
 vim.keymap.set("n", "<Esc>", ":noh<CR><Esc>")
 
