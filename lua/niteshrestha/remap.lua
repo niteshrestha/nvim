@@ -8,9 +8,6 @@ vim.keymap.set("n", "<leader>l", "$")
 
 vim.keymap.set("n", "<Esc>", ":noh<CR><Esc>")
 
---vim.keymap.set("n", "<C-j>", vim.cmd.bprevious)
---vim.keymap.set("n", "<C-k>", vim.cmd.bnext)
-
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")

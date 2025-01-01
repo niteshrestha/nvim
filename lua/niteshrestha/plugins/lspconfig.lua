@@ -20,6 +20,7 @@ return {
 
         require("mason").setup()
         require("mason-lspconfig").setup()
+        require'lspconfig'.html.setup{}
     end,
     event = { "BufReadPre", "BufNewFile" },
 }

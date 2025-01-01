@@ -59,7 +59,8 @@ return {
         end)
         
         vim.keymap.set('n', '<leader>rg', function()
-            builtin.grep_string({ search = vim.fn.input("Grep > ") })
+            --builtin.grep_string({ search = vim.fn.input("Grep > ") })
+            builtin.live_grep()
         end)
 
         vim.keymap.set('n', '<leader>vht', builtin.help_tags, {})
